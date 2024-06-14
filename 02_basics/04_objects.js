@@ -44,8 +44,32 @@ const users=[
     }
 ]
 // console.log(users[1].email);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // it return array of keys
-console.log(Object.values(tinderUser)); // it return array of values
-console.log(Object.entries(tinderUser)); 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check whether the object contains the given property or not
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); // it return array of keys
+// console.log(Object.values(tinderUser)); // it return array of values
+// console.log(Object.entries(tinderUser)); 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check whether the object contains the given property or not
+
+
+const course={
+    coursename:"JS in Hidni",
+    price:"999",
+    courseInstructor:"Hitesh"
+}
+// course.courseInstructor
+
+const {courseInstructor:Instructor}=course //"DESTRUCTURING"
+// console.log(courseInstructor);
+console.log(Instructor);
+
+// {
+//     "name":"hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
